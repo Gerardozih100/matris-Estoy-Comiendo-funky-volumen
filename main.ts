@@ -18,24 +18,19 @@ true
 let Musica = 0
 let Texto = 0
 basic.forever(function () {
-    if (Musica <= 10) {
-        music.playTone(262, music.beat(BeatFraction.Half))
-        music.playTone(262, music.beat(BeatFraction.Half))
-        music.playTone(233, music.beat(BeatFraction.Half))
-        music.playTone(262, music.beat(BeatFraction.Half))
-        music.rest(music.beat(BeatFraction.Half))
-        music.playTone(196, music.beat(BeatFraction.Half))
-        music.rest(music.beat(BeatFraction.Half))
-        music.playTone(196, music.beat(BeatFraction.Half))
-        music.playTone(262, music.beat(BeatFraction.Half))
-        music.playTone(349, music.beat(BeatFraction.Half))
-        music.playTone(330, music.beat(BeatFraction.Half))
-        music.playTone(262, music.beat(BeatFraction.Half))
-        music.rest(music.beat(BeatFraction.Half))
-        Musica += Musica + 1
-    } else {
-    	
-    }
+    music.playTone(262, music.beat(BeatFraction.Half))
+    music.playTone(262, music.beat(BeatFraction.Half))
+    music.playTone(233, music.beat(BeatFraction.Half))
+    music.playTone(262, music.beat(BeatFraction.Half))
+    music.rest(music.beat(BeatFraction.Half))
+    music.playTone(196, music.beat(BeatFraction.Half))
+    music.rest(music.beat(BeatFraction.Half))
+    music.playTone(196, music.beat(BeatFraction.Half))
+    music.playTone(262, music.beat(BeatFraction.Half))
+    music.playTone(349, music.beat(BeatFraction.Half))
+    music.playTone(330, music.beat(BeatFraction.Half))
+    music.playTone(262, music.beat(BeatFraction.Half))
+    music.rest(music.beat(BeatFraction.Half))
 })
 basic.forever(function () {
     max7219_matrix.scrollText(
